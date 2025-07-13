@@ -14,4 +14,15 @@ buttons.addEventListener("click", (e) => {
   if (e.target.classList.contains("subtract")) {
     count.innerHTML--;
   }
+  setColor();
 })
+
+function setColor() {
+  if (count.innerHTML > 0) {
+    count.style.color = "yellow";
+  } else if (count.innerHTML < 0) {
+    count.style.color = "red";
+  } else {
+    count.style.color = "white";
+  }
+}
