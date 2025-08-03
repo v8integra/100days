@@ -62,7 +62,7 @@ const CalendarApp = () => {
             <input type="number" name="minutes" min={0} max={60} className="minutes"/>
           </div>
           <textarea placeholder="Enter Event text (Max 60 Charaters)"></textarea>
-          <button className="event-popup-btn">Add Evnet</button>
+          <button className="event-popup-btn">Add Event</button>
           <button className="close-event-popup">
             <i className="bx bx-x"></i>
           </button>
